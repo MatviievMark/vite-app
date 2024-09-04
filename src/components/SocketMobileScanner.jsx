@@ -8,9 +8,9 @@ const SocketMobileScanner = ({ onScannedCode }) => {
 
   useEffect(() => {
     const appInfo = {
-      appId: 'socketmobile.com.pitmanCreekTest',
-      developerId: 'b564acca-1466-ef11-bfe3-000d3a3b1eff',
-      appKey: 'MC4CFQDgxV/qKPNqscbNy7HU7qcGTQiKKQIVAI3YLjxeWfjpYKl6QqRGMqpTLBb5'
+        appId: 'web:socketmobile.com.marktest',
+        developerId: 'b564acca-1466-ef11-bfe3-000d3a3b1eff',
+        appKey: 'MC0CFHrCwvZuflGm4sslt/8KiaUBmFAIAhUAz59wsI+3VUeuJoYevYCWmFYs05c='
     };
 
     const newCapture = new window.SocketMobile.Capture();
